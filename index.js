@@ -1,5 +1,5 @@
 const express = require("express");
-const personaRoutes = require("./v1/routes/personaRoutes");
+const personaRoutes = require("./src/v1/routes/personaRoutes");
 
 const app = express();
 const PORT = process.env.PORT || 3000;
