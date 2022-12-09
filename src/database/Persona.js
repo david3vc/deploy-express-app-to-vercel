@@ -18,7 +18,7 @@ const getAllPersonas = () => {
     try {
         return new Promise((resolve, reject) => {
             pool.query(
-                'SELECT * FROM persona ORDER BY id ASC',
+                'SELECT * FROM public.persona ORDER BY id ASC',
                 (error, results) => {
                   if (error) {
                     reject(error);
